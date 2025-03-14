@@ -1,0 +1,10 @@
+.bg-image {
+  background-image: url('../../images/sadFrontBG.jpg'); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh; /* Full viewport height */
+  display: flex;
+  align-items: center; /* Vertically centers content */
+  justify-content: center; /* Horizontally centers content */
+}
