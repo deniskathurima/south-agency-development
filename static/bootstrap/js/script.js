@@ -12,3 +12,11 @@ function sendMail(){
   .then(() => alert("Email Sent!!"))
   .catch((error) => console.error("Error sending email:", error));
 }
+
+$(document).ready(function() {
+    $(".expertise-item").hover(function() {
+        $(this).css("transform", "scale(1.05)");
+    }, function() {
+        $(this).css("transform", "scale(1)");
+    });
+});
