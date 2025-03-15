@@ -12,3 +12,6 @@ def team(request):
 
 def contact(request):
     return render(request, 'contactUs.html')
+
+def gallery(request):
+    return render(request, 'gallery.html')

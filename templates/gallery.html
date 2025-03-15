@@ -1,0 +1,150 @@
+{% extends 'master.html' %}
+{% block content %}
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap Gallery</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .gallery-item {
+            overflow: hidden;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease-in-out;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <h2 style="font-weight: bold; font-family:Georgia,serif; color: black" class="text-center mb-4">Image Gallery</h2>
+
+    <div class="row g-3">
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal1">
+                <img src="../static/images/sadPic1.jpeg" alt="Gallery Image 1">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal2">
+                <img src="../static/images/sadPic2.jpeg" alt="Gallery Image 2">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal3">
+                <img src="../static/images/sadPic3.jpeg" alt="Gallery Image 3">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal4">
+                <img src="../static/images/sadPic4.jpeg" alt="Gallery Image 4">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal5">
+                <img src="../static/images/sadPic5.jpeg" alt="Gallery Image 5">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic6.jpeg" alt="Gallery Image 6">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic7.jpeg" alt="Gallery Image 6">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic8.jpeg " alt="Gallery Image 6">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic9.jpeg" alt="Gallery Image 6">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic10.jpeg" alt="Gallery Image 6">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic11.jpeg" alt="Gallery Image 6">
+            </div>
+        </div>
+        <div class="col-md-4 col-6">
+            <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal6">
+                <img src="../static/images/sadPic12.jpeg" alt="Gallery Image 6">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Image Modals -->
+<div class="modal fade" id="imageModal1" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <img src="https://via.placeholder.com/800" class="w-100" alt="Gallery Image 1">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal2" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <img src="https://via.placeholder.com/800" class="w-100" alt="Gallery Image 2">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal3" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <img src="https://via.placeholder.com/800" class="w-100" alt="Gallery Image 3">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal4" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <img src="https://via.placeholder.com/800" class="w-100" alt="Gallery Image 4">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal5" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <img src="https://via.placeholder.com/800" class="w-100" alt="Gallery Image 5">
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="imageModal6" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <img src="https://via.placeholder.com/800" class="w-100" alt="Gallery Image 6">
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS (for modal functionality) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
+{% endblock %}

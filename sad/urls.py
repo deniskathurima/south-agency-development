@@ -24,4 +24,5 @@ urlpatterns = [
     path ('about/', sad_views.about, name='about-url'),
     path('team/', sad_views.team, name='team-url'),
     path('contact/', sad_views.contact, name='contact-url'),
+    path('gallery/', sad_views.gallery, name='gallery-url'),
 ]

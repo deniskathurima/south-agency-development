@@ -9,13 +9,6 @@
   justify-content: center; /* Horizontally centers content */
 }
 
-/*Nav bar*/
-/*.navbar-nav a {*/
-/*    color: #040694; !* Default text color *!*/
-/*    text-decoration: none; !* Remove default underline *!*/
-/*    transition: color 0.3s ease-in-out; !* Smooth transition for color change *!*/
-/*}*/
-
 .navbar-nav a:hover {
     color: #ec072b !important; /* Change color when hovered */
     text-decoration: underline; /* Add underline */
