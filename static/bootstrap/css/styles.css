@@ -8,6 +8,23 @@
   align-items: center; /* Vertically centers content */
   justify-content: center; /* Horizontally centers content */
 }
+
+/*Nav bar*/
+/*.navbar-nav a {*/
+/*    color: #040694; !* Default text color *!*/
+/*    text-decoration: none; !* Remove default underline *!*/
+/*    transition: color 0.3s ease-in-out; !* Smooth transition for color change *!*/
+/*}*/
+
+.navbar-nav a:hover {
+    color: #34ec05; /* Change color when hovered */
+    text-decoration: underline; /* Add underline */
+    text-underline-offset: 15px; /* Adjust this value to move the underline down */
+}
+
+
+
+
 #key-expertise {
     padding: 20px;
     background-color: #f9f9f9;
