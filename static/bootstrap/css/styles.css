@@ -17,7 +17,7 @@
 /*}*/
 
 .navbar-nav a:hover {
-    color: #34ec05; /* Change color when hovered */
+    color: #ec072b !important; /* Change color when hovered */
     text-decoration: underline; /* Add underline */
     text-underline-offset: 15px; /* Adjust this value to move the underline down */
 }
