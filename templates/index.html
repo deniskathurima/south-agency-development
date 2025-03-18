@@ -5,7 +5,7 @@
     <div class="bg-image">
         <div id="content" class="container">
             <h1 class="text-white text-center" style="font-family: Georgia,serif">Welcome to South Agency Development</h1>
-            <p class="text-white text-center" style="font-style: italic; font-family: Georgia,serif; font-size:20px">Creating sustainable growth for a better future.</p>
+            <p class="text-center" style="font-style: italic; font-family: Georgia,serif; font-size:40px; color: #040694">Creating <span class="auto-type"></span></p>
         </div>
     </div> <br>
     <div id="content" class="container">
@@ -36,6 +36,16 @@
                   let content;
                   content.style.display = "block"; // Show the content
             }, 1000); // 3000ms = 3 seconds delay
+        });
+    </script>
+    
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        const typed = new Typed(".auto-type", {
+            strings: ["sustainable growth for a better future."],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: false
         });
     </script>
 {% endblock %}

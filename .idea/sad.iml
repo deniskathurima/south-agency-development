@@ -22,6 +22,7 @@
     <orderEntry type="library" name="email" level="application" />
     <orderEntry type="library" name="smtp" level="application" />
     <orderEntry type="library" name="@emailjs/browser" level="application" />
+    <orderEntry type="library" name="typed.js" level="application" />
   </component>
   <component name="TemplatesService">
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
